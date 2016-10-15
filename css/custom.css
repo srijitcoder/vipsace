@@ -1,0 +1,40 @@
+@import 'normalize.css';
+@import 'skeleton.css';
+@import url('https://fonts.googleapis.com/css?family=Work+Sans');
+
+body{
+    font-family: 'work-family',sans-serif;
+    background: #fff;
+}
+
+.c-red{
+    color: #E53A40;
+}
+.header{
+    height: 100vh;
+    width: 100vw;
+}
+.logo{
+    padding: 10px 0px;
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 62px);
+}
+h2.head-title{
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+h2.head-title::after{
+    content: "";
+    width: 120px;
+    display: block;
+    border-bottom: 2px solid #E53A40;
+    position: relative;
+    left: 50%;
+    margin-left: -60px;
+}
