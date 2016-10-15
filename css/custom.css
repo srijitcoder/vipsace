@@ -2,6 +2,7 @@
 @import 'skeleton.css';
 @import url('https://fonts.googleapis.com/css?family=Work+Sans');
 
+
 body{
     font-family: 'work-family',sans-serif;
     background: #fff;
@@ -13,9 +14,16 @@ body{
 .header{
     height: 100vh;
     width: 100vw;
+    margin-bottom: 20px;
+    background:  url(../assets/img/bg.jpg) no-repeat center center; 
+  background-size: cover;
+}
+.menu-button{
+    margin-top: 2px;
 }
 .logo{
-    padding: 10px 0px;
+    padding: 15px 0px;
+    padding-bottom: 10px;
 }
 .hero-text{
     display: flex;
@@ -28,13 +36,63 @@ h2.head-title{
     text-align: center;
     font-weight: bold;
     letter-spacing: 2px;
+    margin-bottom: 20px;
 }
 h2.head-title::after{
     content: "";
-    width: 120px;
+    width: 130px;
     display: block;
     border-bottom: 2px solid #E53A40;
     position: relative;
     left: 50%;
-    margin-left: -60px;
+    margin-left: -65px;
+}
+.about{
+    background: #fff;
+}
+.b-gray{
+    background: #E0E3DA;
+    padding: 20px 0px 30px 0px; 
+}
+.project{
+    width: 100%;
+    min-height: 300px;
+    height: auto;
+    text-align: center;
+    margin: 10px 0px;
+    padding-bottom: 10px;
+    background: #fff;
+    box-shadow: 0px 10px 5px -6px rgba(0,0,0,0.5); 
+    transition: all 300ms ease-in-out;
+}
+.project:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 13px 9px -8px rgba(0,0,0,0.3);
+}
+.project img{
+    width: 100%;
+    filter: grayscale(1);
+    transition: all 300ms ease-in-out;
+}
+.project:hover img{
+    filter: grayscale(0);
+}
+p.thoda-about-project{
+    padding: 10px;
+}
+.join-us{
+    background: #E53A40;
+    color: #fff;
+    padding: 60px 0px;   
+    text-align: center;
+}
+.join-us a.button{
+    color: #fff;
+}
+.contact-us form{
+    padding: 10px;
+}
+.contact-us form input,.contact-us form textarea{
+    display: block;
+    width: 100%;
 }
