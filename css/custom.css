@@ -96,3 +96,31 @@ p.thoda-about-project{
     display: block;
     width: 100%;
 }
+.menu{
+    height: 100%;
+    position: fixed;
+    background: #E0E3DA;
+    z-index: 99999999999;
+    overflow: hidden;
+    top: -100%;
+    transition: all 200ms ease-in-out;
+}
+.menu .container{
+    padding: 0px 20vw;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+.bar{
+    width: 100%;
+    position: relative;
+    bottom: -25vh;
+    background: #ececec;
+    height: 2px;
+    border-radius: 5px;
+}
+.close:hover + .bar{
+    background: #E53A40;
+}
