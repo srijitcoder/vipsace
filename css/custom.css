@@ -139,4 +139,9 @@ p.thoda-about-project{
     bottom: 3vh;
     background: #fff;
     animation: menu-button 300ms ease-in-out forwards 2;
+    z-index: 999999999999999;
+    opacity: 0.8;
+}
+.hero-member{
+    background-image: url(../assets/img/mbg.jpg);
 }
