@@ -145,3 +145,6 @@ p.thoda-about-project{
 .hero-member{
     background-image: url(../assets/img/mbg.jpg);
 }
+.button{
+    cursor: pointer;
+}
