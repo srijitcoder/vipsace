@@ -6,6 +6,8 @@
 body{
     font-family: 'work-family',sans-serif;
     background: #fff;
+    width:100vw;
+    overflow-x: hidden;
 }
 
 .c-red{
